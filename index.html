@@ -33,10 +33,14 @@
   <body>
     <div class="wrapper p-5">
       <div class="container">
-        <h1 class="text-center">Set your weekly goal</h1>
+        <h1 class="text-center">Set Your Weekly Goal</h1>
       </div>
       <!-- form -->
-      <form action="" class="p-5 border mt-4">
+      <form
+        onsubmit="handleOnSubmit(this)"
+        action="javascript:void(0)"
+        class="p-5 border mt-4"
+      >
         <div class="row g-2">
           <div class="col-md-7">
             <input
@@ -68,5 +72,7 @@
       <!-- left side toto -->
       <!-- right side nottodo -->
     </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
