@@ -46,9 +46,9 @@
             <input
               type="text"
               class="form-control"
-              placeholder="Type goal..."
+              placeholder="Type task..."
               aria-label="Type goal"
-              name="goal"
+              name="task"
             />
           </div>
           <div class="col-md-2">
@@ -68,6 +68,38 @@
       </form>
 
       <!-- tables -->
+      <div class="row mt-5">
+        <div class="col-md">
+          <h3 class="text-center">Do's</h3>
+          <hr />
+          <!-- todo list table -->
+          <table class="table table-striped table-hover border">
+            <tbody id="entryList"></tbody>
+          </table>
+        </div>
+        <div class="col-md">
+          <h3 class="text-center">Don't</h3>
+          <hr />
+          <!-- todo list table -->
+          <table class="table table-striped table-hover border">
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Cooking</td>
+                <td>3hr</td>
+                <td class="text-end">
+                  <button class="btn btn-warning">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </button>
+                  <button class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
 
       <!-- left side toto -->
       <!-- right side nottodo -->
